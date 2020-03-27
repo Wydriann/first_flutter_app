@@ -18,12 +18,11 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            _text(),
-            _pageView(),
-            _buttons(),
-            _text(),
-            _pageView(),
-            _buttons(),
+            _img("assets/images/samus.png"),
+            _img("assets/images/dog2.png"),
+            _img("assets/images/dog3.png"),
+            _img("assets/images/dog4.png"),
+            _img("assets/images/dog5.png"),
           ],
         ),
       ),
